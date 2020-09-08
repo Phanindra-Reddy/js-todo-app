@@ -1,0 +1,38 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #eec0c6 0%, #7ee8fa 74%);
+    min-height: 100vh;
+}
+.checkbox{
+    width: 26px;
+    height: 30px;
+}
+.delete-btn{
+    width: 26px;
+    height: 30px;
+}
+.text{
+    font-weight:500;
+    font-size:1.3rem
+}
+.lineThrough{ 
+    text-decoration: line-through;
+}
+
+@media screen and (max-width:360px) {
+    h2{
+        font-size: 1rem;
+    }
+}
+
+
+
+
+
+
